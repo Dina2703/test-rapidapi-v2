@@ -45,6 +45,6 @@ app.get("/", async (req, res) => {
 //     console.log(error.message);
 //   });
 
-app.listen(process.env.PORT, () => {
+app.listen(4000, () => {
   console.log("Server is listening on port 4000");
 });
